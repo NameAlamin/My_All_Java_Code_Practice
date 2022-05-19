@@ -9,7 +9,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="211a55f5-8e5b-431c-8c7c-212483a08097" name="Changes" comment="" />
+    <list default="true" id="211a55f5-8e5b-431c-8c7c-212483a08097" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../hibernatePractice6/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernatePractice6/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernatePractice6/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernatePractice6/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernatePractice6/src/main/java/com/hibernate6/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernatePractice6/src/main/java/com/hibernate6/DbConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernatePractice6/src/main/java/com/hibernate6/RootConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernatePractice6/src/main/java/com/hibernate6/ServletConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernatePractice6/src/main/java/controllers/RootController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernatePractice6/src/main/resources/hbm.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernatePractice6/src/main/webapp/WEB-INF/views/hibernatePractice6.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +46,7 @@
     </option>
     <option name="myId2Visible">
       <map>
-        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
   </component>
@@ -64,7 +77,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../servlet_practice/servlet" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
@@ -167,7 +180,8 @@
       <workItem from="1652768831240" duration="885000" />
       <workItem from="1652781544647" duration="252000" />
       <workItem from="1652786550563" duration="2353000" />
-      <workItem from="1652933499153" duration="330000" />
+      <workItem from="1652933499153" duration="8636000" />
+      <workItem from="1652951720748" duration="90000" />
     </task>
     <servers />
   </component>

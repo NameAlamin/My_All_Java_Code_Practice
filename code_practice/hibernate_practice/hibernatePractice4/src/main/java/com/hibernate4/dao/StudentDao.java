@@ -26,6 +26,7 @@ public class StudentDao  {
         student1.setStudentName(student1.getStudentName());
         student1.setStudentSection(student1.getStudentSection());
 
+        //Session session = sessionFactory.getCurrentSession();
         var session = sessionFactory.getCurrentSession();
         try {
             session.save(student1);

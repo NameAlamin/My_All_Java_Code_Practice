@@ -1,4 +1,4 @@
-package com.homeWork1.entity;
+package com.hibernate3.entity;
 
 import lombok.Data;
 
@@ -6,22 +6,20 @@ import javax.persistence.*;
 
 @Data
 @Entity
-@Table(name = "student")
+@Table(name = "users")
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id")
-    private Long id;
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
+    private long id;
 
     @Column(name = "name")
     private String name;
+
+    @Column(name = "email")
+    private String email;
+
+    @Column(name = "password")
+    private String password;
 
 }

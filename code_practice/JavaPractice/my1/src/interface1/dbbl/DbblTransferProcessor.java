@@ -7,6 +7,6 @@ public class DbblTransferProcessor implements IFundTransferProcessor {
     @Override
     public void process(IPaymentInfo iPaymentInfo) {
         System.out.println("Sender Number = "+iPaymentInfo.getSender()+"\n"+"Receiver Number = "+iPaymentInfo.getReceiver()+"\n"
-                                    +"Amount = "+iPaymentInfo.getAmount()+"\n"+" (Via bKash)");
+                                    +"Amount = "+iPaymentInfo.getAmount()+"\n"+" (Via DBBL)");
     }
 }
